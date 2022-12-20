@@ -3,7 +3,7 @@ from django.forms import TextInput, Select, Textarea
 from django.utils.safestring import mark_safe
 from django import forms
 from django.utils.translation import gettext as _
-from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.templatetags import static
 
 from suit import utils
 
